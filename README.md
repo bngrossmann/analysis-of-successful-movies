@@ -2,7 +2,7 @@
  Elements of successful movies are analyzed and recommended
 
 ## Notebook 1
-The notebook [analysis-of-successful-movies-1](analysis-of-successful-movies-1.ipynb) retrieves data from IMDb and reduces the data set for this project to meet the following criteria:
+The [Notebook-1](Notebook-1.ipynb) retrieves data from IMDb and reduces the data set for this project to meet the following criteria:
 * Exclude any movie with missing values for genre or runtime
 * Include only full-length movies (titleType = "movie").
 * Include only fictional movies (not from documentary genre)
@@ -10,3 +10,12 @@ The notebook [analysis-of-successful-movies-1](analysis-of-successful-movies-1.i
 * Include only movies that were released in the United States
 
 The resulting data sets are then saved as compressed csv files (extension .csv.gz) in the Data folder.
+
+## Notebook 2
+The [Notebook-2](Notebook-2.ipynb) retrieves data from TMDB for movies collected in [Notebook-1](Notebook-1.ipynb). Currently, only movies from 2000-2001 are having data retrieved.
+
+
+## Notebook 3
+The [Notebook-3](Notebook-3.ipynb) performs some simple EDA, examining budget and revenue. The mean values of budget and revenue for each of the MPAA ratings of interest (G/PG/PG-13/R) are shown in the graph below.
+
+![budget_revenue_means.png](budget_revenue_means.png)
