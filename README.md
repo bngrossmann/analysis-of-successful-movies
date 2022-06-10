@@ -19,3 +19,8 @@ The [Notebook-2](Notebook-2.ipynb) retrieves data from TMDB for movies collected
 The [Notebook-3](Notebook-3.ipynb) performs some simple EDA, examining budget and revenue. The mean values of budget and revenue for each of the MPAA ratings of interest (G/PG/PG-13/R) are shown in the graph below.
 
 ![budget_revenue_means.png](budget_revenue_means.png)
+
+## Notebook 4
+The [Notebook-4](Notebook-4.ipynb) normalized the data tables and saves them as a MySQL database. The ERD is shown here:
+
+![entity_relationship_diagram.png](entity_relationship_diagram.png)
