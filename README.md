@@ -24,3 +24,7 @@ The [Notebook-3](Notebook-3.ipynb) performs some simple EDA, examining budget an
 The [Notebook-4](Notebook-4.ipynb) normalized the data tables and saves them as a MySQL database. The ERD is shown here:
 
 ![entity_relationship_diagram.png](entity_relationship_diagram.png)
+
+## Notebook 5
+Hypothesis Testing
+
